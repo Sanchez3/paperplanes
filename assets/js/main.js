@@ -71,7 +71,7 @@
             var e, t = new Image();
             e = new THREE.Texture(t), e.wrapS = e.wrapT = THREE.RepeatWrapping, e.needsUpdate = !0;
             var n = new THREE.MeshLambertMaterial({
-                color: 32832
+                color: 0x808a87
             }), o = new THREE.Mesh(new THREE.PlaneGeometry(1e4, 1e4), n);
             o.rotation.x = -Math.PI / 2, o.receiveShadow = !0, o.castShadow = !1, i.add(o);
         },
@@ -98,7 +98,7 @@
                 s.rotation.y = Math.atan2(-d.velocity.z, d.velocity.x), s.rotation.z = Math.asin(d.velocity.y / d.velocity.length());
             }
             var n = this;
-            i = new THREE.Scene(), i.add(new THREE.AxisHelper(800)), i.background = new THREE.Color(6737151), 
+            i = new THREE.Scene(), i.add(new THREE.AxisHelper(800)), i.background = new THREE.Color(0x292421), 
             i.fog = new THREE.Fog(i.background, 1, 5e3), n.initLight(), n.initCamera(), n.createGround(), 
             n.createPlanes(), n.initRender(), n.controlCamera(), n.initEvent(), e();
         }
