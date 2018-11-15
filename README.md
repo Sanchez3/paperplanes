@@ -1,6 +1,6 @@
 # Paper Planes
 
-参考 [three bird](https://threejs.org/examples/?q=birds#canvas_geometry_birds)、[paperplanes](https://paperplanes.world/)
+参考  [threejs/examples/**canvas_geometry_birds**](https://github.com/timoxley/threejs/blob/master/examples/canvas_geometry_birds.html)、[paperplanes](https://paperplanes.world/)
 
 自建立纸飞机模型
 
